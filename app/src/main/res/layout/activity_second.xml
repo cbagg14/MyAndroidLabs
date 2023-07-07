@@ -19,22 +19,24 @@
 
     <EditText
         android:id="@+id/phoneEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="159dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="28dp"
         android:hint="Phone"
         android:inputType="phone"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintEnd_toStartOf="@+id/callButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/callButton" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <Button
         android:id="@+id/callButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="Call number"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/phoneEditText"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -50,9 +52,10 @@
         android:id="@+id/changeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:text="Change picture"
-        app:layout_constraintTop_toBottomOf="@+id/callButton"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/callButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

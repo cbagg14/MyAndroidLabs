@@ -6,27 +6,45 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.w(TAG, "onCreate() - Activity created");
+        Intent nextPage = new Intent( MainActivity.this, SecondActivity.class);
 
+        EditText emailEditText = findViewById(R.id.emailEditText);
         Button loginButton = findViewById(R.id.loginButton);
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Create an Intent to launch SecondActivity
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
-            }
+
+
+        loginButton.setOnClickListener( clk-> {
+            String Email =  emailEditText.getText().toString();
+
+            nextPage.putExtra("EmailAddress", Email);
+            startActivity(nextPage);
+
+          /*  String email = emailEditText.getText().toString();
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString(EMAIL_KEY,email);
+            editor.apply(); */
         });
+
+        Log.w(TAG, "onCreate() - Activity created");
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        Log.w(TAG, "onDestroy() - Activity destroyed");
     }
 
     @Override
@@ -37,20 +55,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-
-        Log.w(TAG, "onResume() - Activity resumed");
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        Log.w(TAG, "onPause() - Activity paused");
-    }
-
-    @Override
     protected void onStop() {
         super.onStop();
 
@@ -58,9 +62,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
+    protected void onResume() {
+        super.onResume();
 
-        Log.w(TAG, "onDestroy() - Activity destroyed");
+        Log.w(TAG, "onResume() - Activity resumed");
     }
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        Log.w(TAG, "onPause() - Activity paused");
+    }
+
 }
