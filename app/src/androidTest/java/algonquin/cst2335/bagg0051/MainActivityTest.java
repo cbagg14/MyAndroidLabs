@@ -38,14 +38,17 @@ public class MainActivityTest {
 
     @Test
     public void mainActivityTest() {
+        // find the view
         ViewInteraction appCompatEditText = onView( withId(R.id.passwordEditText));
-
+        // type in Password@10
         appCompatEditText.perform(replaceText("Password@10"), closeSoftKeyboard());
-
+        // find the button
         ViewInteraction materialButton = onView(withId(R.id.loginButton));
+        // click the button
         materialButton.perform(click());
-
+        // find the textview
         ViewInteraction textView = onView(withId(R.id.passwordText));
+        // check the text
         textView.check(matches(withText("Your password meets the requirements")));
     }
 
