@@ -19,6 +19,10 @@ public class MessageDetailsFragment extends Fragment {
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             super.onCreateView(inflater, container, savedInstanceState);
             DetailsLayoutBinding binding = DetailsLayoutBinding.inflate(inflater);
+
+            binding.messageText.setText(selected.message);
+            binding.timeText.setText(selected.timeSent);
+            binding.sendDatabase.setText("Id = " + selected.id);
             return binding.getRoot();
         }
     }
