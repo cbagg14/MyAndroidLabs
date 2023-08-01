@@ -7,36 +7,36 @@ import androidx.room.PrimaryKey;
 @Entity
 public class ChatMessage {
 
-    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey (autoGenerate = true)
     @ColumnInfo(name="id")
     public long id;
     @ColumnInfo(name="message")
-    protected String message;
+    String message;
     @ColumnInfo(name="TimeSent")
-    protected String timeSent;
+    String timeSent;
     @ColumnInfo(name="SendOrReceive")
-    boolean isSentButton;
+    int sendOrReceive;
 
-    ChatMessage(String m, String t, boolean sent)
-    {
+
+
+
+    public ChatMessage(String m, String t, int type){
         message = m;
         timeSent = t;
-        isSentButton = sent;
+        sendOrReceive = type;
     }
 
+    public ChatMessage(){}
 
     public String getMessage() {
         return message;
     }
+
     public String getTimeSent() {
         return timeSent;
     }
 
-    public boolean isSentButton() {
-        return isSentButton;
-    }
-
-    public ChatMessage(){
-
+    public int getSendOrReceive() {
+        return sendOrReceive;
     }
 }

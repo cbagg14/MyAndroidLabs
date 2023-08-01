@@ -3,42 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#90F8EA74">
 
     <TextView
-        android:id="@+id/messageText"
-        android:layout_width="125dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:text="MessageGoesHere"
+        android:id="@+id/tvMessageDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/timeText"
+        android:id="@+id/tvTimeDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Time goes here"
-        app:layout_constraintStart_toStartOf="@+id/messageText"
-        app:layout_constraintTop_toBottomOf="@+id/messageText" />
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvMessageDetails"
+        app:layout_constraintTop_toBottomOf="@+id/tvMessageDetails" />
 
     <TextView
-        android:id="@+id/sendReceive"
+        android:id="@+id/tvDataID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Send receive goes here"
-        app:layout_constraintStart_toStartOf="@+id/timeText"
-        app:layout_constraintTop_toBottomOf="@+id/timeText" />
-
-    <TextView
-        android:id="@+id/sendDatabase"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Database id goes here"
-        app:layout_constraintStart_toStartOf="@+id/sendReceive"
-        app:layout_constraintTop_toBottomOf="@+id/sendReceive" />
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/tvTimeDetails"
+        app:layout_constraintTop_toBottomOf="@+id/tvTimeDetails" />
 </androidx.constraintlayout.widget.ConstraintLayout>
