@@ -62,13 +62,13 @@
 37        </activity>
 38
 39        <service
-39-->[androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+39-->[androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
 40            android:name="androidx.room.MultiInstanceInvalidationService"
-40-->[androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+40-->[androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
 41            android:directBootAware="true"
-41-->[androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+41-->[androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
 42            android:exported="false" />
-42-->[androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+42-->[androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
 43
 44        <provider
 44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

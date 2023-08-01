@@ -11,7 +11,7 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\cbagg\.gradl
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\cbagg\.gradle\caches\transforms-3\e823a5dda738fb7207ec40a9ecdd8129\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\b75cbc890822d61b7a8cf57428e7ec23\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\cbagg\.gradle\caches\transforms-3\0042f6f0779fb3ef66ecba4a4e14895d\transformed\recyclerview-1.3.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\cbagg\.gradle\caches\transforms-3\7def779e53ee2f3f688cb1995e3c6945\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\cbagg\.gradle\caches\transforms-3\a59eb9364f68a0b2b75e8cee04bca4ed\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\0386c68ab7ced15aea86b7b70585d614\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
@@ -36,8 +36,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cbagg\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\cbagg\.gradle\caches\transforms-3\f9e562b23f4f422ee14ad962f2b498de\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\1718b709b65937c202b947da1bdcae53\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\312c732409815ed050d72bcd3ab910ef\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\20267bc301c2d608012ee9aca70c3ffd\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\092d1163e49faa3048ea180f44baa4ae\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\cbagg\.gradle\caches\transforms-3\84669aa7696ad5273a7e74d6b4b5b39b\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\cbagg\.gradle\caches\transforms-3\b931682f7fb5ca3a741731734e5a726c\transformed\sqlite-2.3.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cbagg\.gradle\caches\transforms-3\8a946d2fc5fcd14681822374aed03a1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\2f1bb5263c4b5ac03d678a0b597a60a5\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\cbagg\.gradle\caches\transforms-3\69c548dd230327f165c5021d6262fb80\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
@@ -74,8 +74,8 @@ MERGED from [com.google.android.material:material:1.9.0] C:\Users\cbagg\.gradle\
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\cbagg\.gradle\caches\transforms-3\3dd3245664560002a0aa9dd396c5311c\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cbagg\.gradle\caches\transforms-3\d3b64a44981f6730d3dc38c232befd32\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\cbagg\.gradle\caches\transforms-3\d3b64a44981f6730d3dc38c232befd32\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
-MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.9.0] C:\Users\cbagg\.gradle\caches\transforms-3\2d36cdbeb90dfdfd402f076bef064238\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
@@ -140,8 +140,8 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cbagg\.gradle\caches
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\b75cbc890822d61b7a8cf57428e7ec23\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\cbagg\.gradle\caches\transforms-3\0042f6f0779fb3ef66ecba4a4e14895d\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.3.0] C:\Users\cbagg\.gradle\caches\transforms-3\0042f6f0779fb3ef66ecba4a4e14895d\transformed\recyclerview-1.3.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:21:5-44
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\cbagg\.gradle\caches\transforms-3\7def779e53ee2f3f688cb1995e3c6945\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\cbagg\.gradle\caches\transforms-3\7def779e53ee2f3f688cb1995e3c6945\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.6.0] C:\Users\cbagg\.gradle\caches\transforms-3\a59eb9364f68a0b2b75e8cee04bca4ed\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
@@ -190,10 +190,10 @@ MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\cbagg\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\1718b709b65937c202b947da1bdcae53\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\312c732409815ed050d72bcd3ab910ef\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\312c732409815ed050d72bcd3ab910ef\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\20267bc301c2d608012ee9aca70c3ffd\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\20267bc301c2d608012ee9aca70c3ffd\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\092d1163e49faa3048ea180f44baa4ae\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\092d1163e49faa3048ea180f44baa4ae\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\cbagg\.gradle\caches\transforms-3\84669aa7696ad5273a7e74d6b4b5b39b\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] C:\Users\cbagg\.gradle\caches\transforms-3\84669aa7696ad5273a7e74d6b4b5b39b\transformed\sqlite-framework-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\cbagg\.gradle\caches\transforms-3\b931682f7fb5ca3a741731734e5a726c\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] C:\Users\cbagg\.gradle\caches\transforms-3\b931682f7fb5ca3a741731734e5a726c\transformed\sqlite-2.3.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cbagg\.gradle\caches\transforms-3\8a946d2fc5fcd14681822374aed03a1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\cbagg\.gradle\caches\transforms-3\8a946d2fc5fcd14681822374aed03a1a\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\cbagg\.gradle\caches\transforms-3\2f1bb5263c4b5ac03d678a0b597a60a5\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -227,13 +227,15 @@ INJECTED from C:\Users\cbagg\AndroidStudioProjects\CollinsAndroidLabs\app\src\ma
 		ADDED from C:\Users\cbagg\AndroidStudioProjects\CollinsAndroidLabs\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\cbagg\AndroidStudioProjects\CollinsAndroidLabs\app\src\main\AndroidManifest.xml
 service#androidx.room.MultiInstanceInvalidationService
-ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\cbagg\.gradle\caches\transforms-3\58838ece6ffdcfbb51cefd473b56f6a4\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+		ADDED from [androidx.room:room-runtime:2.5.2] C:\Users\cbagg\.gradle\caches\transforms-3\e8c7186b94c42f4fa34921239376dd1d\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\cbagg\.gradle\caches\transforms-3\1aadcf4e0f237724308e0370743d8486\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\cbagg\.gradle\caches\transforms-3\f7d8f15274dd8b4fe8a5f106a508708e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
