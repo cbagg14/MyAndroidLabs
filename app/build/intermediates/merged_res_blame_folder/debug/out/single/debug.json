@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/layout_activity_chat_room.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/layout/activity_chat_room.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/drawable_receive_image.png.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/drawable/receive_image.png"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/layout_receive_message.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/layout/receive_message.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/drawable_app_icon.png.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/drawable/app_icon.png"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/drawable_send_image.png.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/drawable/send_image.png"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/menu_my_menu.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/menu/my_menu.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/layout_sent_message.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/layout/sent_message.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/drawable_delete.png.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/drawable/delete.png"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/layout-sw600dp_activity_chat_room.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/layout-sw600dp/activity_chat_room.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/layout_details_layout.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/layout/details_layout.xml"
+    },
+    {
+        "merged": "algonquin.cst2335.bagg0051.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "algonquin.cst2335.bagg0051.app-main-34:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="my_primary">#C52E61</color>
+    <color name="my_secondary">#69C86D</color>
+    <color name="my_statusbar">#913D37</color>
+    <color name="my_text">#ED0A0A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Collin\'s Android Labs</string>
+    <string name="button_message">I\'m a button</string>
+    <string name="hello_message">Hello World!</string>
+    <string name="send">SEND</string>
+    <style name="Base.Theme.CollinsAndroidLabs" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/my_primary</item>
+
+        
+        <item name="colorSecondary">@color/my_secondary</item>
+
+        
+        <item name="android:statusBarColor">@color/my_statusbar</item>
+
+        
+        <item name="android:textColor">@color/my_text</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="Theme.CollinsAndroidLabs" parent="Base.Theme.CollinsAndroidLabs"/>
+</resources>
