@@ -12,6 +12,10 @@
 
         <!-- Text Color -->
         <item name="android:textColor">@color/my_text</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
     </style>
 
     <style name="Theme.CollinsAndroidLabs" parent="Base.Theme.CollinsAndroidLabs" />

@@ -9,10 +9,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.room.Room;
 
+import android.app.AlertDialog;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -36,6 +40,50 @@ public class ChatRoom extends AppCompatActivity {
     ChatMessage newMessage;
 
     @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int itemId = item.getItemId();
+        if (itemId == R.id.item_1) {
+            showDeleteConfirmationDialog();
+            return true;
+        } else if (itemId == R.id.item_2) {
+            showAboutToast();
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void showDeleteConfirmationDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Delete Message");
+        builder.setMessage("Are you sure you want to delete this message?");
+        builder.setPositiveButton("Delete", (dialog, which) -> {
+            // Put your ChatMessage deletion code here
+            // This code will execute when the user confirms the deletion
+            // For now, let's show a toast message indicating deletion success
+            Toast.makeText(this, "Message deleted successfully", Toast.LENGTH_SHORT).show();
+        });
+        builder.setNegativeButton("Cancel", (dialog, which) -> {
+            // This code will execute when the user cancels the deletion
+            dialog.dismiss();
+        });
+        builder.show();
+    }
+
+    private void showAboutToast() {
+        // Show a toast with the "About" message
+        Toast.makeText(this, "Version 1.0, created by Collin Baggio", Toast.LENGTH_SHORT).show();
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.my_menu, menu);
+        return true;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -53,6 +101,8 @@ public class ChatRoom extends AppCompatActivity {
                 runOnUiThread(() -> binding.recycleView.setAdapter(myAdapter));
             });
         }
+        setSupportActionBar(binding.myToolbar);
+
         binding = ActivityChatRoomBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
